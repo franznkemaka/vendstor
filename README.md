@@ -39,13 +39,13 @@ Vendstor is the most advanced C# open sourced Point Of Sale App for Windows. It 
 ## ℹ️ About
 
 I created Vendstor back in 2018, when I [(Franz)](https://github.com/franznkemaka) was 15 years old. I just finished learning C# and had so much fun working on the project. I wanted to create something new and useful and I knew someone having a retail store with a lot of difficulties to manage their store, so I spoke with the owner about the advantages of having a modern POS. Finally, I decided to develop something unique for their Business.
-After a couple of months, it turned out there won't be able to use the System due to some legal limitations. Over time, I was thinking of building something similar for other businesses. But It was kind of complicated to use a PC since POS are easier to work with. That's why I decided to develop a completely new system. Unfortunately, the store for which I built this POS never used it.
+After a couple of months, it turned out there won't be able to use the System due to some legal limitations. Over time, I was thinking of building something similar for other businesses. But It was kind of complicated to use a PC since Tablet POS are easier to work with. That's why I decided to develop a completely new system. Unfortunately, the store for which I built this POS never used it.
 
 ## ✨ Purpose & Future
 
-To valorize the time, energy and the love I put into it, I decided open-sourced to it and make it available to everyone. You can clone it modify it for your own store or even develop a system with it.
+To valorize the time, energy and the love I put into it, I decided to open-sourced it and make it available to everyone. You can clone it modify it for your own store or even develop a system with it.
 
-I'm currently cleaning up the code. It will soon be live, I have to remove some unwanted stuff. I might even have to redesign the Database.
+I'm just cleaned the code a little bit. It is now live. I might even have to redesign the Database.
 
 ### 🚧 Note
 
