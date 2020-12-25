@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="cardStoreCredit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="switchPaymentStoreCredit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="switchPaymentStoreCredit.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEUSURBVHhe7c5RbgMhDADRHLen7ZXaP6LIs1kWsLMKM9L7
+        whgetkO/P39buHX04Z3cJvrczj4WfUZPpdEHFKVHj+pcSvSQ+i2NHtB1S6LFGjcVLdS84WiZ5g1Fi7TO
+        pWiB1uuOLmu9ruii8pxGl5TnbXRB+Q6jYeXDaFA1MBpUnRANqU6IhlQnREOq8xINqNZLNKB6LTpUvRYd
+        ql6LDlWvRYeq16JD1WvRoWqFaEh1QjSkOiEaUp0QDalOiIZU4zAaVr7DaFj53kYXlOc0uqQ8XdFFrdcd
+        XdZ6l6IFWmcoWqR5w9EyzZuKFmrckmixrlsaPaB+KdFDOpcePaqoNPqAnj4WfWZnt4k+t5NbRx/+Rvbt
+        PR7/orlkFam7GJgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="text_DescriptionStoreCredit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_StoreCredit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Payment3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgpnlStoreCredit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgStoreCredit.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cardCreditCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="switchPaymentCreditCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="switchPaymentCreditCard.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF2SURBVHhe7dFLjsMwEANR3/8yc8TMIgUIgZn4J3WEuAi8
+        XUuW2Yu5QR5/y+MO+N05kx58J9Tw/aTH3Rm11Cc9Rg011SQ9QGvUNS7po9pGfX2TPqT9qLFP0gd0HHVe
+        S7pY51HruaQLdR31Hk+6TNdR77Gki9QPNe9LukD9Ufd20mH1R92fkw5qHGp/n3RI41B7Tjqg8ah/nTSs
+        8aj/NWlQNVjBa9Kg6rCGljSkOqyhJQ2pDmtoSUOqwxqeSQOqxSqeSQOqxzpcyCxYhwuZBetwIbNgHS5k
+        FqzDhcyCdbiQGbCKljSkOqyhJQ2pDmtoSUOqwxpa0pDqsIaWNKQarGCdNKzxqH+dNKzxqD8nHdA41P4+
+        6ZDGofbPSQfVH3VvJx1Wf9S9L+kC9UPNx5Iu0nXUezzpMl1HveeSLtR51Hot6WIdR519kj6g/aixb9KH
+        tI36xiV9VGvUVZP0ADXUVJ/0mDujlu8nPe5OqGHOpAf/In7X/G6W5R/IPfgtG94lFwAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="text_DescriptionCreditCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_CreditCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Payment2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgpnlCreditCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgCreditCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cardCash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="switchPaymentCash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="switchPaymentCash.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF5SURBVHhe7dFLbsMwEARRXzG5/9rXSBYugDDUtn7kmLCq
+        gbcbUlTPzVwg99+fvyvgd+dMevCVUMPnkx53ZdRSn/QYNdRUk/QALVHXuKSPah319U36kLajxj5JH9B+
+        1Hku6WIdR63Hki7UedS7P+kynUe9+5IuUj/UvC3pAvVH3etJh9Ufdb9POqhxqP110iGNQ+056YDGo/5l
+        0rDGo/7npEHVYAXPSYOqwxpa0pDqsIaWNKQ6rKElDakOa3gkDagWq3gkDage63Ahs2AdLmQWrMOFzIJ1
+        uJBZsA4XMgvW4UJmwCpa0pDqsIaWNKQ6rKElDakOa2hJQ6rDGlrSkGqwgmXSsMaj/mXSsMaj/px0QONQ
+        ++ukQxqH2t8nHVR/1L2edFj9Ufe2pAvUDzXvS7pI51Hv/qTLdB71Hku6UMdR67mki7UfdfZJ+oC2o8a+
+        SR/SOuobl/RRLVFXTdID1FBTfdJjroxaPp/0uCuhhjmTHvyN+F3zvbnd/gGKA1MTwHnFAAAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <metadata name="text_DescriptionCash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Cash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Payment.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgpnlCash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgCash.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cardVendstorPay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="switchPaymentVendstorPay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="switchPaymentVendstorPay.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF2SURBVHhe7dFLjsMwEAPR3P9UvtnMIgUIgZn4J3WEuAi8
+        XUuW2Q9zgyzL8ncH/O6cSQ++E2r4ftLj7oxa6pMeo4aaapIeoDXqGpf0UW2jvr5JH9J+1Ngn6QM6jjqv
+        JV2s86j1XNKFuo56jyddpuuo91jSReqHmvclXaD+qHs76bD6o+7PSQc1DrW/Tzqkcag9Jx3QeNS/ThrW
+        eNT/mjSoGqzgNWlQdVhDSxpSHdbQkoZUhzW0pCHVYQ3PpAHVYhXPpAHVYx0uZBasw4XMgnW4kFmwDhcy
+        C9bhQmbBOlzIDFhFSxpSHdbQkoZUhzW0pCHVYQ0taUh1WENLGlINVrBOGtZ41L9OGtZ41J+TDmgcan+f
+        dEjjUPvnpIPqj7q3kw6rP+rel3SB+qHmY0kX6TrqPZ50ma6j3nNJF+o8ar2WdLGOo84+SR/QftTYN+lD
+        2kZ945I+qjXqqkl6gBpqqk96zJ1Ry/eTHncn1DBn0oN/Eb9rfjePxz/FymgqYAo8OQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="text_DescriptionVendstorPay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_VendstorPay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Payment6.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgpnlVendstorPay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgVendstorPay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cardOnAccount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="switchPaymentOnAccount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="switchPaymentOnAccount.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF2SURBVHhe7dFLjsMwEAPR3P9UvtnMIgUIgZn4J3WEuAi8
+        XUuW2Q9zgyzL8ncH/O6cSQ++E2r4ftLj7oxa6pMeo4aaapIeoDXqGpf0UW2jvr5JH9J+1Ngn6QM6jjqv
+        JV2s86j1XNKFuo56jyddpuuo91jSReqHmvclXaD+qHs76bD6o+7PSQc1DrW/Tzqkcag9Jx3QeNS/ThrW
+        eNT/mjSoGqzgNWlQdVhDSxpSHdbQkoZUhzW0pCHVYQ3PpAHVYhXPpAHVYx0uZBasw4XMgnW4kFmwDhcy
+        C9bhQmbBOlzIDFhFSxpSHdbQkoZUhzW0pCHVYQ0taUh1WENLGlINVrBOGtZ41L9OGtZ41J+TDmgcan+f
+        dEjjUPvnpIPqj7q3kw6rP+rel3SB+qHmY0kX6TrqPZ50ma6j3nNJF+o8ar2WdLGOo84+SR/QftTYN+lD
+        2kZ945I+qjXqqkl6gBpqqk96zJ1Ry/eTHncn1DBn0oN/Eb9rfjePxz/FymgqYAo8OQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="text_DescriptionOnAccount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_OnAccount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Payment5.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgpnlOnAccount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgOnAccount.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cardPayPal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="switchPaymentPayPal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="switchPaymentPayPal.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAGQAAAA4CAYAAAALrl3YAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAF2SURBVHhe7dFLjsMwEAPR3P9UvtnMIgUIgZn4J3WEuAi8
+        XUuW2Q9zgyzL8ncH/O6cSQ++E2r4ftLj7oxa6pMeo4aaapIeoDXqGpf0UW2jvr5JH9J+1Ngn6QM6jjqv
+        JV2s86j1XNKFuo56jyddpuuo91jSReqHmvclXaD+qHs76bD6o+7PSQc1DrW/Tzqkcag9Jx3QeNS/ThrW
+        eNT/mjSoGqzgNWlQdVhDSxpSHdbQkoZUhzW0pCHVYQ3PpAHVYhXPpAHVYx0uZBasw4XMgnW4kFmwDhcy
+        C9bhQmbBOlzIDFhFSxpSHdbQkoZUhzW0pCHVYQ0taUh1WENLGlINVrBOGtZ41L9OGtZ41J+TDmgcan+f
+        dEjjUPvnpIPqj7q3kw6rP+rel3SB+qHmY0kX6TrqPZ50ma6j3nNJF+o8ar2WdLGOo84+SR/QftTYN+lD
+        2kZ945I+qjXqqkl6gBpqqk96zJ1Ry/eTHncn1DBn0oN/Eb9rfjePxz/FymgqYAo8OQAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <metadata name="text_DescriptionPaypal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_PayPal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="text_Payment4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgpnlPayPal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgPayPal.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="imgbtnForceUpdate.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
