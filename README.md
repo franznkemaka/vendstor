@@ -1,5 +1,7 @@
 # Vendstor
 
+🚧 🚧 This repository has been relocated to https://github.com/vendstor/vendstor 🚧 🚧
+
 Vendstor is the most advanced C# open sourced Point Of Sale App for Windows. It enables you to sell, manage employees, inventory and monitor your sales.
 
 ## ✨ Features
